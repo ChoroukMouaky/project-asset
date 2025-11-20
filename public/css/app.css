@@ -44,6 +44,7 @@ header {
     display: flex;
     align-items: center;
     border-radius: 1.5rem;
+    transition: 0.2s;
 }
 
 .btn:active {
@@ -66,8 +67,12 @@ h2 {
 }
 
 #check,
-nav label {
+nav label,.popa {
     display: none;
+}
+.popa{
+    background-color: white;
+    clip-path: polygon(1% 19%, 45% 19%, 83% 19%, 100% 0, 100% 100%, 46% 100%, 0 100%);
 }
 
 /* ======== i finish the page 1 =========== */
@@ -158,6 +163,41 @@ footer a{
    nav  ul {
         display: none;
     }
+    nav{
+        position: relative;
+    }
+    nav a{
+        color: rgba(0, 0, 0, 0.671);
+
+    }
+    .btn{
+        background-color: orange;
+        border-radius: 1.5rem;
+        padding-inline: 3vw;
+        padding-block: 15px;
+    }
+    .btn:active{
+        background-color: rgba(255, 166, 0, 0.651);
+    }
+
+    
+    #check:checked~nav .popa{
+        display: block;
+        position: absolute;
+        top:8vh;
+        right: 10vw;
+        width: 400px;
+        height: 400px;
+
+    }
+    #check:checked~nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:24vh;
+        left: 38vw;
+        z-index: 9999;
+    }
 
     .middel h2 {
         width: 95%;
@@ -225,9 +265,4 @@ footer a{
     footer ul{
         gap: 15vw;
     }
-    
-
-
-
-
 }
