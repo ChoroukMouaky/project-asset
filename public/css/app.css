@@ -55,3 +55,50 @@ header{
     font-size: 40px;
     text-transform: uppercase;
 }
+
+nav label,#check{
+    display: none;
+}
+/* ======== i finish the page 1 =========== */
+
+
+@media screen and (max-width:480px) {
+    ul{
+        display: none;
+    }
+    .middel h2{
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        letter-spacing: 2vw;
+        
+        
+    }
+    nav{
+        padding: 4vh 4vw;
+    }
+    nav svg{
+        width: 40px;
+        fill: white;
+        display: block;
+    }
+    .middel{
+        padding-top: 11vh;
+        position: relative;
+        top: -5vh;
+    }
+    header{
+        background-size: 1000px 100%;
+        background-repeat: no-repeat;
+    }
+    .middel img{
+        height: 250px;
+        width: 10vw;
+    }
+    /* ======== i finish the page 1 for mobile ======== */
+    
+
+    
+    
+    
+}
