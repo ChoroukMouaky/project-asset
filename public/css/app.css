@@ -1,4 +1,221 @@
+/*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    list-style-type: none;
+}  
+.flex{
+    display:flex;
+}
+.image{
+    width: calc(100%/2);
+}
+div h1 {
+    margin-bottom: 40px;
+}
+img{
+    /* width: 100%; */
+/*.text{
+    width: calc(100%/2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cerise{
+    background-image: url(../img/assets/tsiwrat/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    width:calc(100%/2);
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.cerise h1{
+    
+    transform: translateX(-50%);
+}
+.cerise p{
+    /* position: absolute;
+    bottom: 40px;
+    left:50%; */
+    /*transform: translateX(-50%);
+}
+.orange{
+    background-image: url(../img/assets/tsiwrat/desktop/image-photography.jpg);
+    background-size: cover;
+    width:calc(100%/2);
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.orange h1{
+    /* position: absolute;
+    bottom: 70px;
+    left:50%; */
+   /* transform: translateX(-50%);
+}
+.orange p{
+    /* position: absolute;
+    bottom: 40px;
+    left:50%; */
+   /* transform: translateX(-50%);
+}
 
+.yellow{
+    text-decoration:none;
+    color: black;
+    margin-top: 30px;
+    box-shadow:  0 10px 0px 5px rgba(255, 255, 0, 0.557); 
+    border-radius: 1rem;
+    width: auto;
+    height:10px;
+}
+.pink{
+    text-decoration:none;
+    color: black;
+    margin-top: 30px;
+    box-shadow:  0 10px 0px 5px pink; 
+    border-radius: 1rem;
+    width: auto;
+    height:10px;
+}
+
+/* ==================== */
+
+ 
+/*a{
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3vh 2vw;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+
+}
+header{
+    background-image: url(../img/assets/tsiwrat/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.btn a{
+    color: black;
+}
+.btn{
+    background-color: white;
+    padding:2vh 2vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.btn:active{
+    color: white;
+    background-color:rgba(255, 255, 255, 0.541);
+}
+.middel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15vh;
+    padding-block-start: 8vh;
+}
+.middel h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#check,label{
+    display: none;
+}
+/* ======== i finish the page 1 =========== */
+
+
+/*@media screen and (max-width:480px) {
+    ul{
+        display: none;
+    }
+    .middel h2{
+        width: 95%;
+        text-align: center;
+        margin: auto;
+        letter-spacing: 2vw;
+        
+        
+    }
+    nav{
+        padding: 4vh 4vw;
+    }
+    label{
+        display: block;
+    }
+    nav svg{
+        width: 40px;
+        fill: white;
+        display: block;
+    }
+    .middel{
+        padding-top: 11vh;
+        position: relative;
+        top: -5vh;
+    }
+    header{
+        background-size: 1000px 100%;
+        background-repeat: no-repeat;
+    }
+    .middel img{
+        height: 250px;
+        width: 10vw;
+    */
+    /* ======== i finish the page 1 for mobile ======== */
+/*    
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cointainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+.padding{
+    padding: 70px 50px
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.orange{
+    background-image: url(../img/assets/tsiwrat/desktop/image-photography.jpg);
+    background-size: cover;
+}
+.cerise{
+    background-image: url(../img/assets/tsiwrat/desktop/image-graphic-design.jpg);
+    background-size: cover;
+}*/
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +256,6 @@
     background-size: cover;
     background-position: center;
     color: black;
-    height: 400px;
 }
 
 .photo{
@@ -47,7 +263,6 @@
     background-size: cover;
     background-position: center;
     color: black;
-    height: 400px;
 }
 
 .pink{
@@ -67,8 +282,4 @@
     background-position: center;
 }
 
-@media (max-width: 445px){
-    .grid{
-        grid-template-columns: 1fr;
-    }
-}
+@media (max-width: 445px){}
